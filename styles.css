@@ -31,3 +31,9 @@ a, .hero-secondary {
     font-size: 18px;
     color: #e5e7eb;
 }
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
