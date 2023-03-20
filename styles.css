@@ -13,3 +13,12 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+a {
+    text-decoration: none;
+}
+
+a, .hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
