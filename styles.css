@@ -1,17 +1,21 @@
 body {
     font-family: Roboto, sans-serif;
-    margin: 0 15%;
+    margin: 0;
 }
 
 .section-one {
     background-color: #1f2937;
-    padding-top: 14px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 14px;
+}
+
+.header, .section-content {
+    margin: 0 15%;
 }
 
 .logo {
