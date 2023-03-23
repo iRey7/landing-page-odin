@@ -90,3 +90,19 @@ button {
     justify-content: center;
     gap: 30px;
 }
+
+.section-two-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 200px;
+    text-align: center;
+}
+
+.second-images {
+    background-color: aquamarine;
+    border: 1px solid #3882f6;
+    border-radius: 8px;
+    height: 80px;
+    width: 80px;
+}
