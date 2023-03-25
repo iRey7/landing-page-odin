@@ -8,6 +8,7 @@ body {
 
 .section-one {
     background-color: #1f2937;
+    flex: 1;
 }
 
 .header {
@@ -79,6 +80,10 @@ button {
     flex-shrink: 0;
 }
 
+.section-two {
+    flex: 1;
+}
+
 .section-title {
     font-size: 36px;
     font-weight: 800;
@@ -108,4 +113,17 @@ button {
     border-radius: 8px;
     height: 80px;
     width: 80px;
+}
+
+.section-three {
+    flex: 1;
+    background-color: #e5e7eb;
+}
+
+.section-four {
+    flex: 1;
+}
+
+.footer {
+    background-color: #1f2937;
 }
