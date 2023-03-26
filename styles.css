@@ -126,4 +126,9 @@ button {
 
 .footer {
     background-color: #1f2937;
+    height: 72px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
