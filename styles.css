@@ -118,6 +118,18 @@ button {
 .section-three {
     flex: 1;
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin: 0 15%;
 }
 
 .section-four {
