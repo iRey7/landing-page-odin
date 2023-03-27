@@ -40,6 +40,7 @@ ul {
 .left-content {
     display: flex;
     flex-wrap: wrap;
+    flex: 1 0 460px;
 }
 
 .logo {
