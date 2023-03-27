@@ -86,6 +86,7 @@ button {
 
 .section-two {
     flex: 1;
+    margin: 50px 0;
 }
 
 .section-title {
@@ -94,7 +95,7 @@ button {
     color: #1f2937;
     display: flex;
     justify-content: center;
-    margin: 30px 0px;
+    margin-bottom: 30px;
 }
 
 .content-container {
@@ -123,9 +124,17 @@ button {
     flex: 1;
     background-color: #e5e7eb;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    margin: 40px 0;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 800px;
 }
 
 .quote-text {
@@ -133,7 +142,10 @@ button {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    margin: 0 15%;
+}
+
+.thor {
+    margin-left: auto;
 }
 
 .section-four {
