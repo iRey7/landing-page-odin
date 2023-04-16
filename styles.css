@@ -189,10 +189,15 @@ button.call-sign-up {
 }
 
 .footer {
+    flex: 1;
     background-color: #1f2937;
     height: 72px;
     color: #e5e7eb;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer-text {
+    margin: 50px 0;
 }
