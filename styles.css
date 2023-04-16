@@ -66,7 +66,7 @@ a, .hero-secondary {
 button.section-sign-up {
     color: white;
     background: #3882f6;
-    border: 1px solid #3882f6;
+    border: 2px solid #3882f6;
 }
 
 button {
@@ -164,8 +164,28 @@ button {
     width: 1000px;
     height: 100px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+}
+
+.call-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-action {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.call-text {
+    color: #f9faf8;
+}
+
+button.call-sign-up {
+    color: #f9faf8;
+    background: #3882f6;
+    border: 2px solid #f9faf8;
 }
 
 .footer {
